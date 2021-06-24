@@ -1,25 +1,26 @@
 import {
-    html,
-    render
-  } from "https://unpkg.com/htm/preact/standalone.module.js";
+  html,
+  render
+} from "https://unpkg.com/htm/preact/standalone.module.js";
+import { Header } from "./Components/Header.js";
+import { EmailShare } from "./Components/EmailShare.js";
+import { SubmitAlert } from "./Components/SubmitAlert.js";
+import { BeerListItem } from "./Components/BeerListItem.js";
 
-  const axios = window.axios;
+function App() {
+  return html`
+  <${Header} title="TopTap">
+    Select your favorite beers
+  </${Header}>
+  <form>
+    <!-- Creates checklist of beers from BeerListItem.js -->  
+    <${BeerListItem} />
+    <!-- Creates email text field from EmailShare.js -->
+    <${EmailShare} />
+    <!-- Creates submit button and confirmation dialogue from SubmitAlert.js -->
+    <${SubmitAlert} />
+  </form>
+  `;
+}
 
-  function App() {
-      //Log axios messages to console
-    console.log(axios);
-
-    const items = ["1", "2"];
-    return html`
-    <${Header} title="TopTap">
-        your home for a unique social beer experience
-    </${Header}>
-      
-      <form>
-        <input text="test" />
-        <button>Submit</button>
-      </form>
-    `;
-  }
-  
-  render(html` <${App} /> `, document.getElementById("app"));
+render(html` <${App} /> `, document.getElementById("app"));

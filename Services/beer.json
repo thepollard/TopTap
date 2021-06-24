@@ -1,0 +1,252 @@
+[
+  {
+    "id": 26,
+    "name": "Skull Candy",
+    "tagline": "Pacific Hopped Amber Bitter.",
+    "first_brewed": "02/2010",
+    "description": "The first beer that we brewed on our newly commissioned 5000 litre brewhouse in Fraserburgh 2009. A beer with the malt and body of an English bitter, but the heart and soul of vibrant citrus US hops.",
+    "image_url": "https://images.punkapi.com/v2/keg.png",
+    "abv": 3.5,
+    "ibu": 33
+  },
+  {
+    "id": 27,
+    "name": "Dog B",
+    "tagline": "Cacao, Coffee Chili Anniversary Stout.",
+    "first_brewed": "05/2013",
+    "description": "Our anniversary stout was based on AB:04, one of our most sought after beers ever. This beer is slightly different each year, with subtle variations coming into play purely down to environmental and fermentation factors. What doesn't change is the rich dark chocolate, bitter coffee and chilli warmth of this monumental Stout.",
+    "image_url": "https://images.punkapi.com/v2/27.png",
+    "abv": 15,
+    "ibu": 90
+  },
+  {
+    "id": 28,
+    "name": "HBC 369",
+    "tagline": "Single Hop India Pale Ale – 2012.",
+    "first_brewed": "02/2012",
+    "description": "HBC 369 brings rich fruity flavours with the tiniest layer of candy coating on top. HBC 369 (the hop) can bring notes of blueberries, pear, and possibly even sweet potato. HBC 369 (the beer) was balanced, with just one hop providing a complex aroma, and a dry bitterness.",
+    "image_url": "https://images.punkapi.com/v2/28.png",
+    "abv": 6.7,
+    "ibu": 67
+  },
+  {
+    "id": 29,
+    "name": "10 Heads High",
+    "tagline": "Imperial Red Ale.",
+    "first_brewed": "04/2013",
+    "description": "10 Heads High is loosely based on our awesome 2011 Prototype beer Hops Kill Nazis. This is an uncompromising 7.8% Imperial Red Ale loaded high with American Hops. Think of this as an Imperial India Red Ale, or a super-charged version of 5am Saint. Either way this is a seriously good beer!",
+    "image_url": "https://images.punkapi.com/v2/29.png",
+    "abv": 7.8,
+    "ibu": 70
+  },
+  {
+    "id": 30,
+    "name": "Dana - IPA Is Dead",
+    "tagline": "Single Hop India Pale Ale.",
+    "first_brewed": "02/2013",
+    "description": "Hailing from Slovenia, Dana was originally cross bred from the German Hallertau Magnum and native Slovenian varieties. Like any good faux noble hop should, it infuses a rustic, musty spiciness into a toasty beast of a malt base.",
+    "image_url": "https://images.punkapi.com/v2/30.png",
+    "abv": 6.7,
+    "ibu": 70
+  },
+  {
+    "id": 31,
+    "name": "Nanny State",
+    "tagline": "Alcohol Free Hoppy Ale.",
+    "first_brewed": "08/2009",
+    "description": "Brewing a full flavoured craft beer at 0.5% is no easy task. Packed with loads of Centennial, Amarillo, Columbus, Cascade and Simcoe hops, dry hopped to the brink and back and sitting at 55 IBUs, Nanny State is a force to be reckoned with. With a backbone of 8 different specialty malts, Nanny State will tantalise your taste buds and leave you yearning for more.",
+    "image_url": "https://images.punkapi.com/v2/31.png",
+    "abv": 0.5,
+    "ibu": 55
+  },
+  {
+    "id": 32,
+    "name": "AB:05",
+    "tagline": "Belgian Imperial Stout.",
+    "first_brewed": "12/2010",
+    "description": "Belgian Imperial Stout aged on toasted coconut and cacao. The Belgian yeast strain introduces a whole new dimension to the Imperial Stout style resulting in a beer that resembles a marshmallow toasted on a smouldering barbeque then smothered in dark chocolate. Massively seductive and encapsulating this blacker than midnight beer pours with coffee brown head so thick you could almost stand on it, and with an epic lacing on your glass.",
+    "image_url": "https://images.punkapi.com/v2/32.png",
+    "abv": 12.5,
+    "ibu": 40
+  },
+  {
+    "id": 33,
+    "name": "Sorachi Ace",
+    "tagline": "Single Hop IPA Series - 2011.",
+    "first_brewed": "01/2011",
+    "description": "A hop that tastes of bubble gum? Seriously? No, we did not believe it either. But it does! This is one unique, son of a bitch of a hop. Lemony, deep, musty with a smoothness that belies its power. This hop is lemony like a lemon who was angry earlier but is now tired because of all the rage. This hop of Japanese origin is best enjoyed trying to make sushi from your gold fish, or trying to persuade your girlfriend (or boyfriend maybe) to dress up as a Geisha for Valentine’s Day.",
+    "image_url": "https://images.punkapi.com/v2/33.png",
+    "abv": 7.5,
+    "ibu": 75
+  },
+  {
+    "id": 34,
+    "name": "Bourbon Baby",
+    "tagline": "Barrel-Aged Scotch Ale.",
+    "first_brewed": "01/2014",
+    "description": "Santa Paws Scotch ale aged in bourbon barrels - light, dry and toasty, with vanilla, hints of chocolate and ginger biscuit, and a faint spicy hoppiness.",
+    "image_url": "https://images.punkapi.com/v2/34.png",
+    "abv": 5.8,
+    "ibu": 35
+  },
+  {
+    "id": 35,
+    "name": "Berliner Weisse With Raspberries And Rhubarb - B-Sides",
+    "tagline": "Fruity Berliner Weisse.",
+    "first_brewed": "11/2015",
+    "description": "Tart, dry and acidic with a punch of summer berry as rhubarb crumble.",
+    "image_url": "https://images.punkapi.com/v2/keg.png",
+    "abv": 3.6,
+    "ibu": 8
+  },
+  {
+    "id": 36,
+    "name": "Shipwrecker Circus (w/ Oskar Blues)",
+    "tagline": "American Barley Wine - Oskar Blues Collab.",
+    "first_brewed": "09/2013",
+    "description": "In collaboration with the awesome Oskar Blues from Colorado, we created this big, twisted 10.5% American style barley wine. Big boozy aromas and a sweet viscosity, packed in with some heavy-hitting C-hops, for an intense bitterness to balance this full-bodied malt monster.",
+    "image_url": "https://images.punkapi.com/v2/36.png",
+    "abv": 10.5,
+    "ibu": 85
+  },
+  {
+    "id": 37,
+    "name": "Zephyr",
+    "tagline": "There’s A Storm Brewing.",
+    "first_brewed": "10/2008",
+    "description": "A 9.2% Double IPA aged for 21 months in a 1965 Invergordon cask with 30 kg of fresh highland strawberries. This beer is a riot of whisky, caramel and strawberry, all tempered by a toe curling bitterness enducing rapture in all who taste it. Who needs champagne?",
+    "image_url": "https://images.punkapi.com/v2/37.png",
+    "abv": 12.5,
+    "ibu": 125
+  },
+  {
+    "id": 38,
+    "name": "Belgian Trappist",
+    "tagline": "Unleash the Yeast Series.",
+    "first_brewed": "09/2013",
+    "description": "Our Unleash the Yeast series was an epic experiment into the differences in aroma and flavour provided by switching up your yeast. We brewed up a wort with a light caramel note and some toasty biscuit flavour, and hopped it with Amarillo and Centennial for a citrusy bitterness. Everything else is down to the yeast. Abbey style yeasts add distinctive spicy and fruity notes, and dry out the finished beer.",
+    "image_url": "https://images.punkapi.com/v2/38.png",
+    "abv": 6.3,
+    "ibu": 55
+  },
+  {
+    "id": 39,
+    "name": "Kohatu - IPA Is Dead",
+    "tagline": "Single Hop India Pale Ale.",
+    "first_brewed": "02/2014",
+    "description": "As you’d expect from a New Zealand hop variety, Kohatu contributes bags of tropical fruit, but with loads of lime notes, & pineapple hits. Seriously fruity, with sweet, juicy melon and stonefruit notes.",
+    "image_url": "https://images.punkapi.com/v2/39.png",
+    "abv": 7.2,
+    "ibu": 70
+  },
+  {
+    "id": 40,
+    "name": "Hello My Name is Vladimir",
+    "tagline": "Limonnik Infused Imperial IPA (Not for Gays).",
+    "first_brewed": "01/2014",
+    "description": "A Limonnik-infused, triple dry- hopped double IPA. Dry berry tartness and intense citrus hop character meld with a dry bready malt base, boosted by a hint of alcohol warmth. This beer was brewed as a protest against the anti-LGBT legislation in Russia surrounding the Sochi Olympics.",
+    "image_url": "https://images.punkapi.com/v2/40.png",
+    "abv": 8.2,
+    "ibu": 70
+  },
+  {
+    "id": 41,
+    "name": "AB:17",
+    "tagline": "Three Coffee Rye Imperial Porter.",
+    "first_brewed": "10/2014",
+    "description": "A triple whammy of coffee from HasBean gives our 17th Abstrakt concept beer an intense and roasty, dark mocha character. We brewed with espresso in the mash, cafetiere in the boil, and whole roast beans in the whirlpool and the fermenter.",
+    "image_url": "https://images.punkapi.com/v2/41.png",
+    "abv": 10.7,
+    "ibu": 100
+  },
+  {
+    "id": 42,
+    "name": "Hardcore IPA",
+    "tagline": "Explicit Imperial Ale. Citrusy. Resinous. Intense.",
+    "first_brewed": "12/2009",
+    "description": "Pounding a triple payload of the biggest North American hops humanity has devised, braced by a backbone of caramel malt, this beer is deep, astringent and resinous, pushing to the extremes of lupulin thresholds. There’s nothing inscrutable going on; no mystery in the backstory. It doesn’t seek to be understood. A beer incapable of empathy; only hop overload.",
+    "image_url": "https://images.punkapi.com/v2/42.png",
+    "abv": 9.2,
+    "ibu": 125
+  },
+  {
+    "id": 43,
+    "name": "American Wheat",
+    "tagline": "Hoppy American Wheat.",
+    "first_brewed": "07/2014",
+    "description": "A luscious blend of peach, blood orange and banana to make a suitably refreshing beverage that happily straddles the Atlantic.",
+    "image_url": "https://images.punkapi.com/v2/keg.png",
+    "abv": 4.5,
+    "ibu": 17
+  },
+  {
+    "id": 44,
+    "name": "Dog Wired (w/8 Wired)",
+    "tagline": "New Zealand Imperial Pilsner.",
+    "first_brewed": "06/2013",
+    "description": "Brewed in collaboration with Soren from New Zealand’s stellar 8-Wired brewery, this is an Imperial Pilsner featuring two of our favourite New Zealand hops: Nelson Sauvin and Motueka. Sitting at a dangerously drinkable 7.1% ABV there’s a touch of Munich malt which gives this beer that little extra caramel biscuit bite to compliment the lip smackingly tropical hops. Expect an all out NZ hoppy riot.",
+    "image_url": "https://images.punkapi.com/v2/44.png",
+    "abv": 7.1,
+    "ibu": 65
+  },
+  {
+    "id": 45,
+    "name": "The Physics",
+    "tagline": "Laid Back Amber Beer.",
+    "first_brewed": "04/2007",
+    "description": "A hoppy Amber Ale that won World's Best Amber Beer in the World Beer Awards 2007. Malt and hops are in perfect harmony in this incredibly balanced beer. Biscuity, bitter and packing a surprisingly hoppy punch, this beer ultimately morphed into 5AM Saint.",
+    "image_url": "https://images.punkapi.com/v2/45.png",
+    "abv": 5,
+    "ibu": 47
+  },
+  {
+    "id": 46,
+    "name": "Anarchist Alchemist",
+    "tagline": "Triple Hopped Triple Ipa.",
+    "first_brewed": "03/2012",
+    "description": "About as far as you can push an IPA; Anarchist Alchemist packs in three times the malt and three of our favourite hops. Nelson Sauvin, Amarillo and Centennial bring a range of flavours, touching on tropical fruit, white grape, tangerine, grapefruit, pine, spiced orange... the list goes on!",
+    "image_url": "https://images.punkapi.com/v2/46.png",
+    "abv": 16.5,
+    "ibu": 20.5
+  },
+  {
+    "id": 47,
+    "name": "AB:15",
+    "tagline": "Salted Caramel Popcorn Strong Ale.",
+    "first_brewed": "03/2013",
+    "description": "A salted caramel popcorn Imperial Ale. Bourbon and Rum barrel aged, this 12.8% ale has complex and twisting flavours. Bitter caramel, wood, smoke, spice, treacle and vanilla are all present and intertwine against a smooth and lightly chewy mouthfeel. The salted caramel popcorn lends subtle hints of a smoky brininess.",
+    "image_url": "https://images.punkapi.com/v2/47.png",
+    "abv": 12.8,
+    "ibu": 50
+  },
+  {
+    "id": 48,
+    "name": "Goldings - IPA Is Dead",
+    "tagline": "Single Hop India Pale Ale.",
+    "first_brewed": "02/2013",
+    "description": "This is East Kent Goldings re- invented and re-imagined and shows just what can be done with English hops if you use enough of them. In this amped up Goldings reincarnation expect to be slammed with floral lavender, a fruity riot of blackberries and spiced pears, bubblegum, plums and the illusion of thyme.",
+    "image_url": "https://images.punkapi.com/v2/48.png",
+    "abv": 6.7,
+    "ibu": 70
+  },
+  {
+    "id": 49,
+    "name": "AB:14",
+    "tagline": "Oak-Aged Imperial Weizenbock.",
+    "first_brewed": "02/2013",
+    "description": "Think banoffee pie; loads of creamy sweet banana, and sticky warm toffee. This beer is super complex, and one for the sweet-toothed!",
+    "image_url": "https://images.punkapi.com/v2/49.png",
+    "abv": 10,
+    "ibu": 30
+  },
+  {
+    "id": 50,
+    "name": "Lost Dog (w/Lost Abbey)",
+    "tagline": "Rum-Aged Imperial Porter - Lost Abbey Collab.",
+    "first_brewed": "11/2011",
+    "description": "Our first beer aged in rum casks, Lost Dog saw us brew a collaboration imperial porter with our friends at Lost Abbey. The base beer was packed with toffee, chocolate and roasty notes, balanced with a subtle spicy hop character. The rum casks add a warming, spiced vanilla edge.",
+    "image_url": "https://images.punkapi.com/v2/50.png",
+    "abv": 10,
+    "ibu": 35
+  }
+]
