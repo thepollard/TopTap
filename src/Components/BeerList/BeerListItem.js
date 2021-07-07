@@ -1,30 +1,21 @@
-import React, {
-  html,
-  useState,
-  useEffect
-} from "react";
-import { getBeers } from "./Beers/Beers.js";
+import React, { Component } from "react";
+import Beers from "../Services/beer";
 
-// Function puts beer names in an array and returns them with checkboxes
-export function BeerListItem() {
-  const [beers, setBeers] = useState([]);
-
-  useEffect(() => {
-    return getBeers().then((data) => {
-      setBeers(data);
-    });
-  });
-
-  //this will display a list of beers with check boxes
-  return html`
-    <ul>
-      ${beers.map(
-        ({ id, name }, index) =>
-          html` <li key="${index}">
-            <input type="checkbox" id=${id} name=${name} value=${name} />
-            <label for="${index}"> <b>Name:</b> ${name} </label>
-          </li>`
-      )}
-    </ul>
-  `;
+export class BeerListItem extends Component {
+    render() {
+        return(
+            <div>
+                <ul>
+                    {Beers.beers.map((item, i) => (
+                        <li key={i}>
+                        <input type="checkbox" id={item.id} name={item.name} value={item.name} />
+                        <label for="{index}"> <b>Name:</b> {item.name} </label>
+                      </li>
+                        ))}
+                </ul>
+            </div>
+        )
+    }
 }
+
+export default BeerListItem;

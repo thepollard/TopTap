@@ -1,13 +1,15 @@
-// import { html } from "https://unpkg.com/htm/preact/standalone.module.js";
+import React from "react";
 
-// // Function creates text box for email address information
-export default function EmailShare() {
+const EmailShare = props => {
   return (
     <div>
-      <p>Enter a friend's email to share your picks!</p>
-      <input type="text" value="Email" />
-      <br />
-      <br />
+      <input
+        type="text"
+        value={props.value}
+        onChange={event => console.log("value changed!")}
+      />
     </div>
   );
-}
+};
+
+export default EmailShare;
