@@ -1,9 +1,9 @@
-import {
+import React, {
   html,
   useState,
   useEffect
-} from "https://unpkg.com/htm/preact/standalone.module.js";
-import { getBeers } from "./Beers.js";
+} from "react";
+import { getBeers } from "./Beers/Beers.js";
 
 // Function puts beer names in an array and returns them with checkboxes
 export function BeerListItem() {
