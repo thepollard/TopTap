@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 //   );
 // }
 
-const Header = () => {
+const Header = () => (
   <div>
     <h1>TopTap</h1>
     <ul>
@@ -20,8 +20,11 @@ const Header = () => {
       <li>
         <Link to="/Survey">Survey</Link>
       </li>
+      <li>
+        <Link to="/Signup">Signup</Link>
+      </li>
     </ul>
   </div>
-}
+);
 
 export default Header;
