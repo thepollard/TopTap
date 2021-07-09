@@ -1,14 +1,26 @@
 {
-  "name": "toptap-app-feature-3-main",
+  "name": "TopTap",
   "version": "0.2.0",
   "description": "",
-  "main": "index.html",
+  "keywords": [],
+  "main": "app.js",
+  "dependencies": {
+    "parse": "^3.2.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.0"
+  },
   "scripts": {
-    "start": "serve"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "serve": "^11.2.0"
-  },
-  "keywords": []
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
