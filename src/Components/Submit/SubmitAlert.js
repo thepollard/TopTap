@@ -1,5 +1,4 @@
-//this file is the parent to SubmitButton.js and is called by App.js
-// import SubmitButton from "./Submit/SubmitButton/SubmitButton.js";
+//this file is the parent to SubmitButton.js and is called by Survey.js
 
 export default function SubmitAlert() {
   function clickAlert() {

@@ -1,3 +1,5 @@
+// Need to work on layout of this page, maybe some CSS?
+
 import React from "react";
 
 export default function Home() {

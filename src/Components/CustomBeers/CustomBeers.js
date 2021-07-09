@@ -1,7 +1,7 @@
+// List of your favorite beers.
 import React from "react";
 import CustomBeersList from "./CustomBeersList.js";
 
-/* MAIN MODULE WITH STATEFUL PARENT AND STATELESS CHILD */
 const CustomBeers = () => {
   return (
     <div>
