@@ -5,7 +5,8 @@ import CustomBeersList from "./CustomBeersList.js";
 const CustomBeers = () => {
   return (
     <div>
-      <h2>Enter your own favorite brews:</h2>
+      <br />
+      <h3>Enter your own favorite brews:</h3>
       <CustomBeersList />
     </div>
   );
