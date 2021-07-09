@@ -5,6 +5,8 @@ export class BeerListItem extends Component {
     render() {
         return(
             <div>
+                <br />
+                <h3>Or pick some from our list:</h3>
                 <ul>
                     {Beers.beers.map((item, i) => (
                         <li key={i}>
