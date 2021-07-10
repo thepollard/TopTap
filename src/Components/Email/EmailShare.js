@@ -1,3 +1,5 @@
+// Eventually this should all for the user to send an email with their list of favorite beers.
+
 import React from "react";
 
 const EmailShare = props => {

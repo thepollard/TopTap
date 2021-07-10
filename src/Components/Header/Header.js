@@ -1,3 +1,5 @@
+// This code supplies the navigation menu and should probably have the name changed from Header to something else like navBar.
+
 import React from "react";
 import { Link } from "react-router-dom";
 

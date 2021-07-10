@@ -1,3 +1,5 @@
+// List of beers imported.
+
 import React, { Component } from "react";
 import Beers from "../Services/beer";
 

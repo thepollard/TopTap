@@ -1,6 +1,6 @@
+// Text box and submit button for adding your favorite beer.
 import React from "react";
 
-/* STATELESS CHILD COMPONENT */
 const CustomBeersForm = ({ onChange, onClick }) => {
   return (
     <div>
