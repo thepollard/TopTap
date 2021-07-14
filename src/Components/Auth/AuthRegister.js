@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { createUser } from "./AuthService";
 import AuthForm from "./AuthForm";
 
+
 const AuthRegister = () => {
   const [newUser, setNewUser] = useState({
     firstName: "",
@@ -24,6 +25,7 @@ const AuthRegister = () => {
         }
         // TODO: redirect user to main app
         setAdd(false);
+        window.location.href='/'
       });
     }
   }, [newUser, add]);
