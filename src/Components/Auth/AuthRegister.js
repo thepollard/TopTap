@@ -25,6 +25,7 @@ const AuthRegister = () => {
         }
         // TODO: redirect user to main app
         setAdd(false);
+        localStorage.setItem("auth", true);
         window.location.href='/'
       });
     }
