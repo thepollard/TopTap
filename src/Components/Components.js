@@ -8,13 +8,13 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 export default function Components() {
   return (
     <Router>
-      <div>
+      <switch>
         <Route path="/" component={Header} />
         <Route path="/" exact component={Home} />
         <Route path="/Survey" exact component={Survey} />
         {/* <Route path="/Login" exact component={AuthLogin} /> */}
         <Route path="/Register" exact component={AuthRegister} />
-      </div>
+      </switch>
     </Router>
   );
 }
