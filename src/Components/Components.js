@@ -5,7 +5,7 @@ import Survey from "./Survey/Survey.js"
 import AuthRegister from "./Auth/AuthRegister.js"
 import UserLogIn from "./Auth/AuthLogin.js"
 import React from "react"
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 export default function Components() {
 
