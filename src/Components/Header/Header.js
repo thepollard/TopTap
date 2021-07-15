@@ -13,6 +13,12 @@ const Header = () => (
       <li>
         <Link to="/Survey">Survey</Link>
       </li>
+      <li>
+        <Link to="/Login">Login</Link>
+      </li>
+      <li>
+        <Link to="/Register">Register</Link>
+      </li>
     </ul>
   </div>
 );
