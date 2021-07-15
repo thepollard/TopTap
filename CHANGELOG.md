@@ -1,3 +1,8 @@
+0.3.0 (2021-07-14)
+-Added protected routes
+-Added login and registration form entries
+-Adjusted components and cleaned up code
+
 0.2.0 (2021-07-09)
 -Added parse initialization
 -Use parse to push and pull data
