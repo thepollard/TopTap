@@ -2,10 +2,11 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
+import './header.css'
 
 const Header = () => (
   <div>
-    <h1>TopTap</h1>
+    {/* <img src="TopTap2.png" alt="TopTap" /> */}
     <ul>
       <li>
         <Link to="/">Home</Link>
