@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.site-header {
+    display: flex;
+    flex-flow: row wrap;
+    Justify-content: center;
+    background-image: url("../../img/header_background1.png");
+    height: 550px;
+}
+
