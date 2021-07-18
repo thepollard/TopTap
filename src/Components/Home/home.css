@@ -7,7 +7,7 @@
     margin-bottom: 0;
 }
 
-.main h2 {
+.main h1 {
     grid-column-start: 2;
     grid-column-end: 5;
     grid-row-start: 1;
@@ -36,7 +36,7 @@
         display: grid;
         grid-template-columns: 2fr 1fr 2fr;
     }
-    .main h2 {
+    .main h1 {
         grid-column-start: 1;
         grid-column-end: 4;
         grid-row-start: 1;
