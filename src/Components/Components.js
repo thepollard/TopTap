@@ -11,12 +11,12 @@ export default function Components() {
 
   return (
     <Router>
-        <Route path="/" component={Header} />
-        <Route path="/" exact component={Home} />
-        <Route path="/ProtectedBeers" exact component={ProtectedBeers} />
-        <Route path="/Survey" exact component={Survey} />
-        <Route path="/Login" exact component={UserLogIn} />
-        <Route path="/Register" exact component={AuthRegister} />
+      <Route path="/" component={Header} />
+      <Route path="/" exact component={Home} />
+      <Route path="/ProtectedBeers" exact component={ProtectedBeers} />
+      <Route path="/Survey" exact component={Survey} />
+      <Route path="/Login" exact component={UserLogIn} />
+      <Route path="/Register" exact component={AuthRegister} />
     </Router>
   );
 }

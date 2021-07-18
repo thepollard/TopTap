@@ -42,3 +42,15 @@
 .submit {
     margin-bottom: 40px;
 }
+
+@media all and (max-width: 800px) {
+    .survey {
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr;
+    }
+    .background {
+        grid-column-start: 1;
+        grid-column-end: 6;
+        border-radius: 0 0 0 0;
+    }
+}

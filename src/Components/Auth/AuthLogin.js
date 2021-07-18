@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Parse from "parse";
-import './auth.css';
+import './auth-login.css';
 
 const UserLogIn = (props) => {
     const [username, setUsername] = useState("");
@@ -28,8 +28,9 @@ const UserLogIn = (props) => {
     };
 
     return (
-        <div className="auth">
+        <div className="auth-login">
             <div className="login">
+                <h1 className="login-info">Log into your TopTap account to get started</h1>
                 <label htmlFor={username} className="un-login">Username: </label>
                 <input
                     type="text"
@@ -41,7 +42,6 @@ const UserLogIn = (props) => {
                 <input
                     type="password"
                     value={password}
-                    secureTextEntry
                     onChange={(e) => {setPassword(e.currentTarget.value)}}
                     className="pw-login-box"
                 />

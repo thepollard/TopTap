@@ -1,26 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 
-.auth {
+.auth-form {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
     margin-top: 0;
     margin-bottom: 0;
 }
 
-.login {
+.form-group {
     grid-column-start: 2;
     grid-column-end: 5;
     grid-row-start: 1;
-    grid-row-end: 6;
+    grid-row-end: 8;
     font-family: "Ubuntu", sans-serif;
     background-color: blanchedalmond;
     margin-top: 0;
     margin-bottom: 0;
-    padding: 50px 50px 0px 50px;
+    padding: 50px 0 0 50px;
     border-radius: 0 0 15px 15px;
 }
 
-.un-login {
+.info {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -29,51 +29,61 @@
     background-color: blanchedalmond;
     margin-top: 0;
     margin-bottom: 0;
-    padding: 50px 0px 0px 0px;
+    padding: 0px 0px 20px 0px;
 }
 
-.un-login-box {
+.form-first {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
     font-family: "Ubuntu", sans-serif;
-    background-color: white;
-    display: block;
+    background-color: blanchedalmond;
     margin-top: 0;
     margin-bottom: 0;
+    padding: 0px 0px 20px 0px;
 }
 
-
-.pw-login {
+.form-last {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
     font-family: "Ubuntu", sans-serif;
     background-color: blanchedalmond;
-    display: block;
     margin-top: 0;
     margin-bottom: 0;
-    padding: 25px 0px 0px 0px;
+    padding: 0px 0px 20px 0px;
 }
 
-.pw-login-box {
+.form-email {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 4;
     grid-row-end: 5;
     font-family: "Ubuntu", sans-serif;
-    background-color: white;
+    background-color: blanchedalmond;
     margin-top: 0;
     margin-bottom: 0;
+    padding: 0px 0px 20px 0px;
 }
 
-.submit-login {
+.form-pass {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 5;
     grid-row-end: 6;
+    font-family: "Ubuntu", sans-serif;
+    background-color: blanchedalmond;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.btn-primary {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 7;
     font-family: "Ubuntu", sans-serif;
     display: block;
     margin-top: 20px;
@@ -82,47 +92,20 @@
     padding: 5px;
 }
 
+.form-control {
+    font-family: "Ubuntu", sans-serif;
+    background-color: white;
+}
+
 @media all and (max-width: 800px) {
-    .auth {
+    .auth-form {
         display: grid;
         grid-template-columns: 2fr 1fr 2fr;
     }
-    .login {
+    .form-group {
         grid-column-start: 1;
-        grid-column-end: 4;
-        grid-row-start: 1;
-        grid-row-end: 7;
+        grid-column-end: 6;
         border-radius: 0 0 0 0;
-    }
-    .un-login {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 1;
-        grid-row-end: 2;
-    }
-    .un-login-box {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 2;
-        grid-row-end: 3;
-    }
-    .pw-login {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
-    .pw-login-box {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 4;
-        grid-row-end: 5;
-    }
-    .submit-login {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 5;
-        grid-row-end: 6;
     }
 }
   

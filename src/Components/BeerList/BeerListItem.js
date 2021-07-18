@@ -9,7 +9,7 @@ export class BeerListItem extends Component {
         return(
             <div>
                 <br />
-                <h3>Or pick some from our list:</h3>
+                <h1>Or pick some from our list:</h1>
                 <ul className="beer-list">
                     {Beers.beers.map((item, i) => (
                         <li key={i}>

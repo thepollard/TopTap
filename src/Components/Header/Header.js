@@ -8,7 +8,9 @@ import './header.css';
 const Header = () => (
   <div className="site-header">
     <div className="bg-img">
+      <Link to="/">
         <img src={TopTap} alt="TopTap" className="logo" />
+      </Link>
     </div>
     <ul className="navigation">
       <li>
