@@ -6,6 +6,7 @@ import {
   removeBeer
 } from "../Services/BottleService.js";
 import CustomBeersForm from "./CustomBeersForm.js";
+import '../Survey/survey.css';
 
 const CustomBeersList = () => {
   const [beers, setBeers] = useState([]);
@@ -58,7 +59,7 @@ const CustomBeersList = () => {
   };
 
   return (
-    <div>
+    <div className="custom-beers-list">
       <CustomBeersForm onClick={onClickHandler} onChange={onChangeHandler} />
       <div>
         {beers.length > 0 && (
@@ -66,14 +67,23 @@ const CustomBeersList = () => {
             {beers.map((beer) => (
               <div>
                 <span>
-                  <li key={beer.id}>{beer.get("name")}</li>{" "}
-                  <button
+                  <li key={beer.id}>
+                    {beer.get("name")}
+                    <button
+                      onClick={(e) => {
+                        setRemove(beer.id);
+                      }}
+                    >
+                      Delete
+                    </button>
+                  </li>{" "}
+                  {/* <button
                     onClick={(e) => {
                       setRemove(beer.id);
                     }}
                   >
                     Delete
-                  </button>
+                  </button> */}
                 </span>
               </div>
             ))}

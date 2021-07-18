@@ -2,6 +2,7 @@
 
 import React, { Component } from "react";
 import Beers from "../Services/beer";
+import '../Survey/survey.css'
 
 export class BeerListItem extends Component {
     render() {
@@ -9,11 +10,11 @@ export class BeerListItem extends Component {
             <div>
                 <br />
                 <h3>Or pick some from our list:</h3>
-                <ul>
+                <ul className="beer-list">
                     {Beers.beers.map((item, i) => (
                         <li key={i}>
                         <input type="checkbox" id={item.id} name={item.name} value={item.name} />
-                        <label for="{index}"> <b>Name:</b> {item.name} </label>
+                        <label htmlFor="{index}"> <b>Name:</b> {item.name} </label>
                       </li>
                         ))}
                 </ul>

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Parse from "parse";
+import './auth.css';
 
 const UserLogIn = (props) => {
     const [username, setUsername] = useState("");
@@ -27,21 +28,25 @@ const UserLogIn = (props) => {
     };
 
     return (
-        <div>
-            <input
-                type="text"
-                value={username}
-                placeholder={'Username'}
-                onChange={(e) => {setUsername(e.currentTarget.value)}}
-            />
-            <input
-                type="password"
-                value={password}
-                placeholder={'Password'}
-                secureTextEntry
-                onChange={(e) => {setPassword(e.currentTarget.value)}}
-            />
-            <button type="submit" onClick={doUserLogIn}>Sign in</button>
+        <div className="auth">
+            <div className="login">
+                <label htmlFor={username} className="un-login">Username: </label>
+                <input
+                    type="text"
+                    value={username}
+                    onChange={(e) => {setUsername(e.currentTarget.value)}}
+                    className="un-login-box"
+                />
+                <label htmlFor={password} className="pw-login">Password: </label>
+                <input
+                    type="password"
+                    value={password}
+                    secureTextEntry
+                    onChange={(e) => {setPassword(e.currentTarget.value)}}
+                    className="pw-login-box"
+                />
+                <button type="submit" onClick={doUserLogIn} className="submit-login">Sign in</button>
+            </div>
         </div>
     );
 };
