@@ -1,6 +1,6 @@
 import EmailShare from "../Email/EmailShare.js";
 import SubmitAlert from "../Submit/SubmitAlert.js";
-import CustomBeers from "../CustomBeers/CustomBeers.js"
+import CustomBeers from "../CustomBeers/CustomBeers.js";
 import BeerListItem from "../BeerList/BeerListItem.js";
 import React from "react";
 import './survey.css';
@@ -10,7 +10,6 @@ export default function ProtectedBeers() {
     return ( 
         <div className="survey">
             <div className="background">
-                {/* Need to work on a better layout */}
                 <CustomBeers />
                 <BeerListItem />
                 <EmailShare />
@@ -18,4 +17,4 @@ export default function ProtectedBeers() {
             </div>
         </div>
     );
-  }
+}
