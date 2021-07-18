@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.main h2 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-family: "Ubuntu", sans-serif;
+    background-color: blanchedalmond;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 50px 50px 0px 50px;
+}
+
+.main p {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-family: "Ubuntu", sans-serif;
+    background-color: blanchedalmond;
+    margin-top: 0;
+    padding: 50px 50px 50px 50px;
+    border-radius: 0 0 15px 15px;
+}

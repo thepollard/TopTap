@@ -2,12 +2,15 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
-import './header.css'
+import TopTap from "../../img/TopTap.png";
+import './header.css';
 
 const Header = () => (
-  <div>
-    {/* <img src="TopTap2.png" alt="TopTap" /> */}
-    <ul>
+  <div className="site-header">
+    <div className="bg-img">
+        <img src={TopTap} alt="TopTap" className="logo" />
+    </div>
+    <ul className="navigation">
       <li>
         <Link to="/">Home</Link>
       </li>
