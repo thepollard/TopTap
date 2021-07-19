@@ -64,14 +64,14 @@ const CustomBeersList = () => {
       <div>
         {beers.length > 0 && (
           <ul>
-            {beers.map((list) => (
+            {beers.map((custom) => (
               <div>
                 <span>
-                  <li key={list.id}>
-                    {list.get("name")}
+                  <li key={custom.id}>
+                    {custom.get("name")}
                     <button
                       onClick={(e) => {
-                        setRemove(list.id);
+                        setRemove(custom.id);
                       }}
                     >
                       Delete

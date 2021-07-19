@@ -6,17 +6,8 @@ import HeaderGuest from "./HeaderGuest.js";
 
 import './header.css';
 
-// const Header = () => (
-//   <div>
-//     <HeaderAuth />
-//   </div>
-// );
-
-// export default Header;
-
 export default function Header() {
-  // console.log("asdfa"+props.flag);
-  const [flag, setFlag] = useState(false);
+  // const [flag, setFlag] = useState(false);
   var isValid = localStorage.getItem("auth");
   if (isValid !== null) {
     return <HeaderAuth />;
