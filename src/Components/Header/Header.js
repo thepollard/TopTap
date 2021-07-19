@@ -3,6 +3,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import TopTap from "../../img/TopTap.png";
+import UserLogOut from "../Auth/AuthLogout";
+
 import './header.css';
 
 const Header = () => (
@@ -17,13 +19,19 @@ const Header = () => (
         <Link to="/">Home</Link>
       </li>
       <li>
-        <Link to="/Survey">Survey</Link>
+        <Link to="/Bouncer">Make a List</Link>
+      </li>
+      <li>
+        <Link to="/About">About Us</Link>
       </li>
       <li>
         <Link to="/Login">Login</Link>
       </li>
       <li>
         <Link to="/Register">Register</Link>
+      </li>
+      <li>
+        <UserLogOut />
       </li>
     </ul>
   </div>
