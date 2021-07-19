@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import Parse from 'parse';
 
 const UserLogOut = () => {
@@ -9,6 +10,7 @@ const UserLogOut = () => {
                 if (currentUser === null) {
                     alert("You have successfully logged out of TopTap");
                     localStorage.removeItem("auth");
+                    window.location.href='/';
                 }
                 return true;
             })
@@ -19,7 +21,7 @@ const UserLogOut = () => {
     };
 
     return (
-        <a id="Logout" href="#" onClick={() => doUserLogOut()}>Logout</a>
+        <Link to="/" onClick={() => doUserLogOut()}>Logout</Link>
     );
 };
 

@@ -1,40 +1,25 @@
 // This code supplies the navigation menu and should probably have the name changed from Header to something else like navBar.
 
-import React from "react";
-import { Link } from "react-router-dom";
-import TopTap from "../../img/TopTap.png";
-import UserLogOut from "../Auth/AuthLogout";
+import React, { useState } from "react";
+import HeaderAuth from "./HeaderAuth.js";
+import HeaderGuest from "./HeaderGuest.js";
 
 import './header.css';
 
-const Header = () => (
-  <div className="site-header">
-    <div className="bg-img">
-      <Link to="/">
-        <img src={TopTap} alt="TopTap" className="logo" />
-      </Link>
-    </div>
-    <ul className="navigation">
-      <li>
-        <Link to="/">Home</Link>
-      </li>
-      <li>
-        <Link to="/Bouncer">Make a List</Link>
-      </li>
-      <li>
-        <Link to="/About">About Us</Link>
-      </li>
-      <li>
-        <Link to="/Login">Login</Link>
-      </li>
-      <li>
-        <Link to="/Register">Register</Link>
-      </li>
-      <li>
-        <UserLogOut />
-      </li>
-    </ul>
-  </div>
-);
+// const Header = () => (
+//   <div>
+//     <HeaderAuth />
+//   </div>
+// );
 
-export default Header;
+// export default Header;
+
+export default function Header() {
+  // console.log("asdfa"+props.flag);
+  const [flag, setFlag] = useState(false);
+  var isValid = localStorage.getItem("auth");
+  if (isValid !== null) {
+    return <HeaderAuth />;
+  }
+  return <HeaderGuest />;
+}
