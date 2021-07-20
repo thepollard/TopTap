@@ -23,6 +23,7 @@ export const getById = (id) => {
 export const getAllBeers = () => {
   const Beer = Parse.Object.extend("Beer");
   const query = new Parse.Query(Beer);
+  query.equalTo("user", Parse.User.current());
   return query.find().then((results) => {
     return results;
   });
