@@ -2,21 +2,28 @@ import React, { useState } from "react";
 import Parse from "parse";
 import './auth-login.css';
 
-const UserLogIn = ({ user, onChange, onSubmit }) => {
-    const [username, setUsername] = useState([]);
-    const [password, setPassword] = useState([]);
+const UserLogIn = (props) => {
+    const [username, setUsername] = useState("");
+    const [password, setPassword] = useState("");
 
-    const doUserLogIn = async function (){
+    const doUserLogIn = async function() {
         const usernameValue = username;
         const passwordValue = password;
-        return await Parse.user.login(usernameValue, passwordValue)
+
+        return await Parse.User.logIn(usernameValue, passwordValue)
             .then(async (loggedInUser) => {
                 alert(
                     `User ${loggedInUser.get('username')} has successfully signed in!`
                 );
                 const currentUser = await Parse.User.currentAsync();
                 console.log(loggedInUser === currentUser);
+                localStorage.setItem("auth", true);
+                window.location.href='/'        
                 return true;
+            })
+            .catch((error) => {
+                alert('Error!', error.message);
+                return false;
             });
     };
 
