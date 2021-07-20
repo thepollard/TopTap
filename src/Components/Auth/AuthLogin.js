@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Parse from "parse";
+import './auth-login.css';
 
 const UserLogIn = ({ user, onChange, onSubmit }) => {
     const [username, setUsername] = useState([]);
@@ -20,23 +21,25 @@ const UserLogIn = ({ user, onChange, onSubmit }) => {
     };
 
     return (
-        <div>
-            <form onSubmit={onSubmit}>
+        <div className="auth-login">
+            <div className="login">
+                <h1 className="login-info">Log into your TopTap account to get started</h1>
+                <label htmlFor={username} className="un-login">Username: </label>
                 <input
                     type="text"
                     value={username}
-                    placeholder={'Username'}
-                    onChange={onChange}
+                    onChange={(e) => {setUsername(e.currentTarget.value)}}
+                    className="un-login-box"
                 />
+                <label htmlFor={password} className="pw-login">Password: </label>
                 <input
                     type="password"
                     value={password}
-                    placeholder={'Password'}
-                    secureTextEntry
-                    onChange={onChange}
+                    onChange={(e) => {setPassword(e.currentTarget.value)}}
+                    className="pw-login-box"
                 />
-                <button type="submit" onSubmit={onSubmit}>Sign in</button>
-            </form>
+                <button type="submit" onClick={doUserLogIn} className="submit-login">Sign in</button>
+            </div>
         </div>
     );
 };

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+body {
+  margin: 0px;
+  background-color: rgb(39, 39, 39);
+}
+.site-header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
+}
+
+.bg-img {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-top: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75)), url("../../img/header_bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.logo {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+}
+
+.navigation {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background: #074d3b;
+}
+  
+.navigation a {
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+.navigation a:hover {
+  background: #15c095;
+}
+
+.whoAmI {
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  padding: 1em;
+  color: #d8c451;
+}
+  
+@media all and (max-width: 800px) {
+  .site-header {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+  }
+  .bg-img {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .logo {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .navigation {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;  
+    flex-flow: column wrap;
+    padding: 0;
+  }
+}
+  
+@media all and (max-width: 600px) {
+  .navigation {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+
+  .navigation a {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .whoAmI {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+}

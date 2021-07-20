@@ -1,11 +1,13 @@
 import React from "react";
+import './auth-form.css';
 
 const AuthForm = ({ user, onChange, onSubmit }) => {
   return (
-    <div>
-      <form onSubmit={onSubmit} autoComplete="off">
-        <div className="form-group">
-          <label>First Name</label>
+    <div className="auth-form">
+      <form onSubmit={onSubmit} autoComplete="off" className="form-group">
+        <h1 className="info">Create an account to use TopTap</h1>
+        <div className="form-first">
+          <label>First Name:</label>
           <br />
           <input
             type="text"
@@ -17,8 +19,8 @@ const AuthForm = ({ user, onChange, onSubmit }) => {
             required
           />
         </div>
-        <div className="form-group">
-          <label>Last Name</label>
+        <div className="form-last">
+          <label>Last Name:</label>
           <br />
           <input
             type="text"
@@ -30,8 +32,8 @@ const AuthForm = ({ user, onChange, onSubmit }) => {
             required
           />
         </div>{" "}
-        <div className="form-group">
-          <label>Email</label>
+        <div className="form-email">
+          <label>Email:</label>
           <br />
           <input
             type="email"
@@ -43,8 +45,8 @@ const AuthForm = ({ user, onChange, onSubmit }) => {
             required
           />
         </div>{" "}
-        <div className="form-group">
-          <label>Password</label>
+        <div className="form-pass">
+          <label>Password:</label>
           <br />
           <input
             type="password"
@@ -57,9 +59,9 @@ const AuthForm = ({ user, onChange, onSubmit }) => {
             required
           />
         </div>
-        <div className="form-group">
-          <button type="submit" className="btn btn-primary" onSubmit={onSubmit}>
-            Submit
+        <div>
+          <button type="submit" className="btn-primary" onSubmit={onSubmit}>
+            Register
           </button>
         </div>
       </form>

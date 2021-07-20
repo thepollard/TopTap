@@ -6,7 +6,7 @@ const CustomBeers = () => {
   return (
     <div>
       <br />
-      <h3>Enter your own favorite brews:</h3>
+      <h1>Enter your own favorite brews:</h1>
       <CustomBeersList />
     </div>
   );
