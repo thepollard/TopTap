@@ -1,5 +1,5 @@
 // BottleService.js enables the data manipulation in Back4App
-
+import { WhoAmI } from "../CurrentUser/CurrentUser.js";
 import Parse from "parse";
 
 export const createBeer = (Name) => {
@@ -7,6 +7,7 @@ export const createBeer = (Name) => {
   const Beer = Parse.Object.extend("Beer");
   const beer = new Beer();
     beer.set("name", Name);
+    beer.set("user", "test@test.com");
   return beer.save().then((result) => {
       return result;
   });

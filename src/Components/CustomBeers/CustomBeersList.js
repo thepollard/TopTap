@@ -76,14 +76,7 @@ const CustomBeersList = () => {
                     >
                       Delete
                     </button>
-                  </li>{" "}
-                  {/* <button
-                    onClick={(e) => {
-                      setRemove(beer.id);
-                    }}
-                  >
-                    Delete
-                  </button> */}
+                  </li>
                 </span>
               </div>
             ))}
