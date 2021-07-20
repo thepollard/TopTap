@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import TopTap from "../../img/TopTap.png";
 import UserLogOut from "../Auth/AuthLogout";
+import {WhoAmI} from '../CurrentUser/CurrentUser';
 
 import './header.css';
 
@@ -21,6 +22,9 @@ const HeaderAuth = () => (
       </li>
       <li>
         <Link to="/About">About Us</Link>
+      </li>
+      <li className="whoAmI">
+        <WhoAmI />
       </li>
       <li>
         <UserLogOut />

@@ -1,3 +1,4 @@
+import {WhoAmI} from '../CurrentUser/CurrentUser';
 import React from 'react';
 import { Link } from "react-router-dom";
 import Parse from 'parse';
@@ -21,7 +22,9 @@ const UserLogOut = () => {
     };
 
     return (
-        <Link to="/" onClick={() => doUserLogOut()}>Logout</Link>
+        <div>
+            <Link to="/" onClick={() => doUserLogOut()}>Logout</Link>
+        </div>
     );
 };
 

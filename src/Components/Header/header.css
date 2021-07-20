@@ -58,6 +58,15 @@ body {
 .navigation a:hover {
   background: #15c095;
 }
+
+.whoAmI {
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  padding: 1em;
+  color: #d8c451;
+}
   
 @media all and (max-width: 800px) {
   .site-header {
@@ -93,6 +102,13 @@ body {
   }
 
   .navigation a {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .whoAmI {
     text-align: center;
     padding: 10px;
     border-top: 1px solid rgba(255, 255, 255, 0.3);
