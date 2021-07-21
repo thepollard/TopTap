@@ -1,8 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 const BeerMail = ({ mailto, label }) => {
     return (
+        <div>
+        <br />
+      <h3>Enter an email to share your list with:</h3>
+      <input
+        type="email"/>
         <button>
         <Link
             to='#'
@@ -10,9 +16,10 @@ const BeerMail = ({ mailto, label }) => {
                 window.location = mailto;
                 e.preventDefault();
             }}
-        >Submit
+        >
             {label}
         </Link></button>
+        </div>
     );
 };
 
