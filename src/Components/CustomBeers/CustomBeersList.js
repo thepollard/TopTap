@@ -19,7 +19,7 @@ const CustomBeersList = () => {
       setBeers(beers);
     });
 
-    getById("iBN2xuSkBT").then((beer) => {
+    getById("P4ZuEgSRMl").then((beer) => {
       console.log(beer);
       setBeer(beer);
     });

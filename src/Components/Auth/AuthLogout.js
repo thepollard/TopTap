@@ -1,4 +1,3 @@
-import {WhoAmI} from '../CurrentUser/CurrentUser';
 import React from 'react';
 import { Link } from "react-router-dom";
 import Parse from 'parse';
