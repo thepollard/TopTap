@@ -1,9 +1,7 @@
 import EmailShare from "../Email/EmailShare.js";
 import SubmitAlert from "../Submit/SubmitAlert.js";
 import CustomBeers from "../CustomBeers/CustomBeers.js";
-import DoGeolocation from "../Geolocation/DoGeolocation.js";
-import { GetCoords } from "../Geolocation/GetCoords.js";
-import GetCoordsWorking from "../Geolocation/GetCoorsWorking.js";
+import MapContainer from "../MapContainer/MapContainer.js";
 import ReviewHome from "../Review/ReviewHome.js";
 import React from "react";
 import './survey.css';
@@ -15,7 +13,7 @@ export default function ProtectedBeers() {
             <div className="background">
                 <CustomBeers />
                 <ReviewHome />
-                <GetCoordsWorking />
+                <MapContainer />
                 <EmailShare />
                 <SubmitAlert />
             </div>

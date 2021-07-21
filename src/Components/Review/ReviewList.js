@@ -4,11 +4,9 @@ import ReviewBox from "./ReviewBox.js";
 
 const ReviewList = () => {
   const [reviews, setReviews] = useState([]);
-//   const [review, setReview] = useState([]);
   const [text, setText] = useState();
 
   const [add, setAdd] = useState(false);
-//   const [remove, setRemove] = useState("");
 
   useEffect(() => {
     if (text && add) {

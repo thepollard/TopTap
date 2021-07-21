@@ -5,6 +5,7 @@
   "keywords": [],
   "main": "app.js",
   "dependencies": {
+    "@react-google-maps/api": "^2.2.0",
     "google-maps-react": "^2.0.6",
     "parse": "^3.2.0",
     "react": "^17.0.1",
