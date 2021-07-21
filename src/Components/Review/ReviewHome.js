@@ -1,8 +1,8 @@
 // List of your favorite beers.
 import React from "react";
-import ReviewList from "./Review2.js"
+import ReviewList from "./ReviewList.js"
 
-const UserReview = () => {
+const ReviewHome = () => {
   return (
     <div>
       <br />
@@ -12,4 +12,4 @@ const UserReview = () => {
   );
 };
 
-export default UserReview;
+export default ReviewHome;

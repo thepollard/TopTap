@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { createReview } from "./ReviewService.js";
-import ReviewBox2 from "./ReviewBox2.js";
+import ReviewBox from "./ReviewBox.js";
 
 const ReviewList = () => {
   const [reviews, setReviews] = useState([]);
@@ -33,7 +33,7 @@ const ReviewList = () => {
 
   return (
     <div>
-      <ReviewBox2 onClick={onClickHandler} onChange={onChangeHandler} />
+      <ReviewBox onClick={onClickHandler} onChange={onChangeHandler} />
     </div>
   );
 };

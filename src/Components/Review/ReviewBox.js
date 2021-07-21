@@ -1,6 +1,6 @@
 import React from "react";
 
-const ReviewBox2 = ({ onChange, onClick }) => {
+const ReviewBox = ({ onChange, onClick }) => {
   return (
     <div>
       <textarea text="test" onChange={onChange} />
@@ -11,4 +11,4 @@ const ReviewBox2 = ({ onChange, onClick }) => {
   );
 };
 
-export default ReviewBox2;
+export default ReviewBox;
