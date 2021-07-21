@@ -7,7 +7,7 @@ const BeerMail = ({ mailto, label }) => {
         <div>
         <br />
       <h3>Enter an email to share your list with:</h3>
-      <input
+      <input id="beerMail" name="beerMail"
         type="email"/>
         <button>
         <Link
