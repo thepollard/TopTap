@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+.auth-form {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.form-group {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 8;
+    font-family: "Ubuntu", sans-serif;
+    background-color: blanchedalmond;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 50px 0 0 50px;
+    border-radius: 0 0 15px 15px;
+}
+
+.info {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-family: "Ubuntu", sans-serif;
+    background-color: blanchedalmond;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0px 0px 20px 0px;
+}
+
+.form-first {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-family: "Ubuntu", sans-serif;
+    background-color: blanchedalmond;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0px 0px 20px 0px;
+}
+
+.form-last {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    font-family: "Ubuntu", sans-serif;
+    background-color: blanchedalmond;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0px 0px 20px 0px;
+}
+
+.form-email {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    font-family: "Ubuntu", sans-serif;
+    background-color: blanchedalmond;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0px 0px 20px 0px;
+}
+
+.form-pass {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    font-family: "Ubuntu", sans-serif;
+    background-color: blanchedalmond;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.btn-primary {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    font-family: "Ubuntu", sans-serif;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.form-control {
+    font-family: "Ubuntu", sans-serif;
+    background-color: white;
+}
+
+@media all and (max-width: 800px) {
+    .auth-form {
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr;
+    }
+    .form-group {
+        grid-column-start: 1;
+        grid-column-end: 6;
+        border-radius: 0 0 0 0;
+    }
+}
+  
