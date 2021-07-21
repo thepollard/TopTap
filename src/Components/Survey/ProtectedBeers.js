@@ -15,7 +15,6 @@ export default function ProtectedBeers() {
                 {/* <BeerListItem /> */}
                 <EmailShare />
                 <SubmitAlert />
-                <BeerMail />
             </div>
         </div>
     );
