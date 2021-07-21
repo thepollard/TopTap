@@ -1,7 +1,8 @@
 import EmailShare from "../Email/EmailShare.js";
 import SubmitAlert from "../Submit/SubmitAlert.js";
 import CustomBeers from "../CustomBeers/CustomBeers.js";
-import BeerListItem from "../BeerList/BeerListItem.js";
+import MapContainer from "../MapContainer/MapContainer.js";
+import ReviewHome from "../Review/ReviewHome.js";
 import React from "react";
 import './survey.css';
 
@@ -11,7 +12,8 @@ export default function ProtectedBeers() {
         <div className="survey">
             <div className="background">
                 <CustomBeers />
-                <BeerListItem />
+                <ReviewHome />
+                <MapContainer />
                 <EmailShare />
                 <SubmitAlert />
             </div>
