@@ -16,7 +16,7 @@ export default function ProtectedBeers() {
                 <CustomBeers />
                 <ReviewHome />
                 <MapContainer />
-                <SubmitAlert />
+                {/* <SubmitAlert /> */}
                 <SendBeer />
             </div>
         </div>
