@@ -2,6 +2,9 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import Parse from 'parse';
 
+//Uses Parse to log out current user,
+//checks to see that the logout happened, 
+//then returns a success message
 const UserLogOut = () => {
     const doUserLogOut = async function () {
         return await Parse.User.logOut()

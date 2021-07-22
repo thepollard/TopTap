@@ -1,7 +1,7 @@
-// List of your favorite beers.
 import React from "react";
 import ReviewList from "./ReviewList.js"
 
+//Header for review box and sets up ReviewList.js
 const ReviewHome = () => {
   return (
     <div>

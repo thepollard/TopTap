@@ -1,5 +1,6 @@
 import React from "react";
 
+//Displays the text area field and submit button
 const ReviewBox = ({ onChange, onClick }) => {
   return (
     <div>

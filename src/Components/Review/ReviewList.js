@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { createReview } from "./ReviewService.js";
 import ReviewBox from "./ReviewBox.js";
 
+//Tells the review box to use the createReview service when button is clicked
 const ReviewList = () => {
   const [reviews, setReviews] = useState([]);
   const [text, setText] = useState();
